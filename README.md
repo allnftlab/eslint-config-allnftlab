@@ -8,6 +8,7 @@
 - JSX a11y plugin;
 - Prettier;
 
+
 ## Setup
 
 1. Install the dependencies
