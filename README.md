@@ -1,4 +1,4 @@
-# Rocketseat ESLint config
+# allnft{lab} ESLint config
 
 ## Whats included?
 
@@ -12,14 +12,13 @@
 
 1. Install the dependencies
 ```
-npm i -D eslint @rocketseat/eslint-config
+npm i -D eslint @allnftlab/eslint-config
 ```
 
 2. Create a `.eslintrc.json` file extending the config:
 ```
 {
-  "extends": "@rocketseat/eslint-config/react"
-  // "extends": "@rocketseat/eslint-config/node"
+  "extends": "@allnftlab/eslint-config"
 }
 ```
 
