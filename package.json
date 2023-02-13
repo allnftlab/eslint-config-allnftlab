@@ -1,5 +1,5 @@
 {
-  "name": "@allnftlab/esling-config",
+  "name": "@allnftlab/eslint-config",
   "version": "1.0.0",
   "private": false,
   "description": "ESLint configuration used by allnft{lab}.",
@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/allnftlab/eslint-config-allnftlab.git"
   },
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^8.34.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.27.5",
@@ -27,7 +27,9 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^2.8.4"
+    "prettier": "^2.8.4",
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^5.52.0"
   },
   "peerDependencies": {
     "eslint": "^7.23.0 || ^8.0.0",
@@ -37,9 +39,5 @@
     "typescript": {
       "optional": true
     }
-  },
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.52.0",
-    "@typescript-eslint/parser": "^5.52.0"
   }
 }
