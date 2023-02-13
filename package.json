@@ -8,6 +8,9 @@
     "semantic-release": "semantic-release --branches main",
     "commit": "git-cz"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "commit": "git-cz",
   "keywords": [
     "eslint",
